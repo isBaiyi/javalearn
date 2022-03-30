@@ -42,7 +42,7 @@ public class KafkaConsumer {
      */
     @KafkaListener(groupId = "${kafka.group}", topicPartitions = {
             @TopicPartition(topic = "test", partitions = {"0", "1"}),
-            @TopicPartition(topic = "test1", partitions = {"1"}, partitionOffsets = @PartitionOffset(partition = "1",
+            @TopicPartition(topic = "test1", partitions = {"0"}, partitionOffsets = @PartitionOffset(partition = "1",
             initialOffset = "100"))
     }, concurrency = "3")
     public void listenTopicPro(ConsumerRecords<String, String> records, Acknowledgment ack) {
