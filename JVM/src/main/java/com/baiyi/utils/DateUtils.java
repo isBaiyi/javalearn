@@ -1,4 +1,4 @@
-package com.baiyi.basic.utils;
+package com.baiyi.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
