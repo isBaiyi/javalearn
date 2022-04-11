@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JVM" />
+        <module name="concurrent" />
         <module name="kafka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="concurrent" target="8" />
       <module name="JVM" target="8" />
       <module name="kafka" target="1.8" />
     </bytecodeTargetLevel>
