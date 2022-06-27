@@ -5,6 +5,9 @@
       <item index="0" class="java.lang.String" itemvalue="lombok.Data" />
     </list>
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/designpattern" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -13,6 +16,8 @@
         <option value="$PROJECT_DIR$/concurrent/pom.xml" />
         <option value="$PROJECT_DIR$/email/pom.xml" />
         <option value="$PROJECT_DIR$/excel/pom.xml" />
+        <option value="$PROJECT_DIR$/designpartern/pom.xml" />
+        <option value="$PROJECT_DIR$/designpattern/pom.xml" />
       </list>
     </option>
   </component>

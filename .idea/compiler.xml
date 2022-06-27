@@ -10,12 +10,14 @@
         <module name="JVM" />
         <module name="concurrent" />
         <module name="excel" />
+        <module name="designpattern" />
         <module name="email" />
         <module name="kafka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="concurrent" target="8" />
+      <module name="designpattern" target="8" />
       <module name="email" target="8" />
       <module name="excel" target="1.8" />
       <module name="JVM" target="8" />
